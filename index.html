@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="utf-8" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Recetario">
+        <meta name="keywords" content="Comida,Recetas">
+        <meta name="theme-color" content="#ffff">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Recetario">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link href="/assets/apple/icons8-apple-music-512.png" rel="apple-touch-icon" size="512x512">
+        <link href="/assets/apple/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/assets/apple/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <title>Recetario</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="/manifest.json" rel="manifest">
+        <link href="/css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="#!">Recetario</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5  rounded-3 text-center ">
+                    <div class="m-4 m-lg-5">
+                        <h1 class="display-5 fw-bold">Encuentra tu receta favorita!</h1>
+                        <div class="form-group mb-2">
+                            <input type="text" class="form-control" placeholder="Cochinita pibil" id="txt_busqueda">
+                          </div>
+                        <button class="btn btn-primary btn-lg" id="btn_buscar">Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Page Content-->
+        <section class="pt-4">
+            <div class="container px-lg-5">
+                <h2 id="txt_titulo" class="mb-3"></h2>
+                <!-- Page Features-->
+                <div class="row gx-lg-5 mt-5" id="contenedor_recetas">
+                 
+                  
+                </div>
+            </div>
+        </section>
+        <div id="snackbar" class="d-flex justify-content-between">
+            <span class="my-1">Hay una nueva version disponible</span>
+            <button class=" btn btn-outline-primary rounded my-1" id="btn-update" href="">Actualizar</button>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-primary">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Maria Gabriela</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
